@@ -18,7 +18,8 @@ rule [assign]: <k> X = I:Int; => .K ...</k>
 ```
 
 ```bash
-python kompile_wrappter.py imp.md
+python kompile_wrapper.py imp.md
+
 bundle install
 ruby KToMD.rb sum.imp imp.md --join
 ```
